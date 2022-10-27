@@ -43,10 +43,22 @@ this are things you will need before you start the manual:
 <p align="center">
 <img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/4.jpg"  width="500" >
 </p>
-10. I've been trying to fix this for some hours now, but there is close to nothing on the internet about this problem. I found one forum where someone asked this and  he got one reply asking for more info wich was the only reply on the thread. The Zapier troubleshooter says:
+10. I've been trying to fix this for some hours now, but there is close to nothing on the internet about this problem. I found one [forum post](https://community.zapier.com/how-do-i-3/adafruit-and-google-calendar-connection-3161) where someone asked this and  he got one reply asking for more info wich was the only reply on the thread. The Zapier troubleshooter says:
 
 > Your Zap is likely to be missing a required field, or a field value wasn't in a recognized format. For example, if a field in your action step is expecting an email > address, but the value given is a name, the app may return a 400 error.
 > Check that your fields are correctly set up and mapped to each other.
 
-Helaas ben ik er niet meer uit gekomen en ben ik tot de conclusie gekomen het hierbij te laten.
+I did the setup of Adafruit and zapier again but that ended in the same result
+
+11. I tried for a last time to make a whole new account for Zapier and noticed while making the connection with my adafruit account that they ask for username and not email. I tried my username and still didn't work. Then I found out it's case sensitive and my username starts with an uppercase (-_-)
+12. so that worked. The problem was not only that Zapier made it seem it was a succesful login, but too that the error said that there was no feed in my account, instead of telling me they were failing at logging me in.
+13. Tested my action and it worked now. Then I published and turned on my zap.
+14. I downloaded the base code from the tutorial I was following. (source in the bottom of this manual)
+15. Changed the code to make it work for me. Login for adafruit and key, username for adafruit as feed owner, feed name and my internet connection login.
+16. At the end I changed some of the text that would come up in the serial monitor to something like "Next garbage day is + Date".
+
+Sources:
+
+[Tutorial](https://www.instructables.com/Google-Calendar-Events-to-ESP8266/)
+[Garbage Calendar](https://www.hvcgroep.nl/zelf-regelen/afvalkalender)
 
