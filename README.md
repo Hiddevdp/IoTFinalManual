@@ -43,9 +43,9 @@ this are things you will need before you start the manual:
 <p align="center">
 <img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/4.jpg"  width="500" >
 </p>
-10. I've been trying to fix this for some hours now, but there is close to nothing on the internet about this problem. I found one [forum post](https://community.zapier.com/how-do-i-3/adafruit-and-google-calendar-connection-3161) where someone asked this and  he got one reply asking for more info wich was the only reply on the thread. The Zapier troubleshooter says:
+10. I've been trying to fix this for some hours now, but there is close to nothing on the internet about this problem. I found one forum post where someone asked this and  he got one reply asking for more info wich was the only reply on the thread. The Zapier troubleshooter says:
 
-> Your Zap is likely to be missing a required field, or a field value wasn't in a recognized format. For example, if a field in your action step is expecting an email > address, but the value given is a name, the app may return a 400 error.
+> Your Zap is likely to be missing a required field, or a field value wasn't in a recognized format. For example, if a field in your action step is expecting an email address, but the value given is a name, the app may return a 400 error.
 > Check that your fields are correctly set up and mapped to each other.
 
 I did the setup of Adafruit and zapier again but that ended in the same result
@@ -59,6 +59,9 @@ I did the setup of Adafruit and zapier again but that ended in the same result
 
 Sources:
 
-[Tutorial](https://www.instructables.com/Google-Calendar-Events-to-ESP8266/)
-[Garbage Calendar](https://www.hvcgroep.nl/zelf-regelen/afvalkalender)
+- [Tutorial](https://www.instructables.com/Google-Calendar-Events-to-ESP8266/)
+
+- [Tutorial github base code](https://github.com/SummerDanoe/ReadGoogleCalFeed)
+
+- [Garbage Calendar](https://www.hvcgroep.nl/zelf-regelen/afvalkalender)
 
