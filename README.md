@@ -63,7 +63,11 @@ I did the setup of Adafruit and zapier again but that ended in the same result
 15. Changed the code to make it work for me. Login for adafruit and key, username for adafruit as feed owner, feed name and my internet connection login.
 <p align="center">
 <img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/5.jpg"  width="500" >
+</p>
+<p align="center">
 <img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/6.jpg"  width="500" >
+</p>
+<p align="center">
 <img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/7.jpg"  width="500" >
 </p>
 17. At the end I changed some of the text that would come up in the serial monitor to something like "Next garbage day is + Date".
