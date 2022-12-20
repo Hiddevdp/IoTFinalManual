@@ -55,7 +55,14 @@ I did the setup of Adafruit and zapier again but that ended in the same result
 13. Tested my action and it worked now. Then I published and turned on my zap.
 14. I downloaded the base code from the tutorial I was following. (source in the bottom of this manual)
 15. Changed the code to make it work for me. Login for adafruit and key, username for adafruit as feed owner, feed name and my internet connection login.
-16. At the end I changed some of the text that would come up in the serial monitor to something like "Next garbage day is + Date".
+<p align="center">
+<img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/5.jpg"  width="500" >
+<img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/6.jpg"  width="500" >
+<img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/7.jpg"  width="500" >
+</p>
+17. At the end I changed some of the text that would come up in the serial monitor to something like "Next garbage day is + Date".
+
+Now your application should work and display a message about the next garbage days.
 
 Sources:
 
