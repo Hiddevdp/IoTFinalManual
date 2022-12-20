@@ -51,8 +51,14 @@ this are things you will need before you start the manual:
 I did the setup of Adafruit and zapier again but that ended in the same result
 
 11. I tried for a last time to make a whole new account for Zapier and noticed while making the connection with my adafruit account that they ask for username and not email. I tried my username and still didn't work. Then I found out it's case sensitive and my username starts with an uppercase (-_-)
+<p align="center">
+<img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/10.jpg"  width="500" >
+</p>
 12. so that worked. The problem was not only that Zapier made it seem it was a succesful login, but too that the error said that there was no feed in my account, instead of telling me they were failing at logging me in.
 13. Tested my action and it worked now. Then I published and turned on my zap.
+<p align="center">
+<img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/9.jpg"  width="500" >
+</p>
 14. I downloaded the base code from the tutorial I was following. (source in the bottom of this manual)
 15. Changed the code to make it work for me. Login for adafruit and key, username for adafruit as feed owner, feed name and my internet connection login.
 <p align="center">
@@ -61,6 +67,9 @@ I did the setup of Adafruit and zapier again but that ended in the same result
 <img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/7.jpg"  width="500" >
 </p>
 17. At the end I changed some of the text that would come up in the serial monitor to something like "Next garbage day is + Date".
+<p align="center">
+<img src="https://github.com/Hiddevdp/IoTFinalManual/blob/main/8.jpg"  width="500" >
+</p>
 
 Now your application should work and display a message about the next garbage days.
 
